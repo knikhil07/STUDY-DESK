@@ -1,0 +1,11 @@
+@font-face{
+    font-family: logo;
+    src: url(.\assets\AnadaBlack.ttf);
+}
+
+.logo-font {
+    font-family: logo;
+}
+*{
+    user-select: none;
+}
