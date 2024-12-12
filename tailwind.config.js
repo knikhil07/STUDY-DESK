@@ -7,12 +7,15 @@ export default {
   theme: {
     extend: {
       height:{
-        "f":"26rem"
+        "f":"26rem",
+        "30":"30rem",
+        "90":"90%"
         
       },
       width:{
          "f":"30rem",
-         "fs":"50rem"
+         "fs":"50rem",
+         "90":"90%"
       }
     },
   },

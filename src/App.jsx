@@ -4,8 +4,8 @@ import AppContext from "./Context/AppContext";
 import Home from "./Home";
 import Login from "./Pages/Login";
 const App = () => {
-  
-  const values = {};
+  const [sidebar,setSidebar]=useState(false);
+  const values = {sidebar,setSidebar};
   return (
     <>
       <AppContext.Provider value={values}>
