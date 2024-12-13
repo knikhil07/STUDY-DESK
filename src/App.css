@@ -11,16 +11,16 @@
 }
 ::-webkit-scrollbar{
     -webkit-appearance: none;
-    width: 15px;
+    width: 5px;
  
 }
 
 ::-webkit-scrollbar-track{
-    width: 15px;
+    width: 5px;
     background: rgb(69 69 69 /0.03);  
 }
 ::-webkit-scrollbar-thumb{
-    width: 15px;
+    width: 5px;
     border-radius: 30px;
     background: linear-gradient(to bottom, transparent ,rgb(69 69 69 /0.2)); 
 }
